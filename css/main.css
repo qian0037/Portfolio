@@ -1,0 +1,114 @@
+/* Global Styles */
+/* Consistent site colour */
+html {
+    background-color: #DADED4;
+  }
+  
+/* Consistent site font */
+
+.blank{
+    background-color: #F9FAFB;
+    height: 10px;
+  }
+
+/* Style the navigation */
+.navbar{
+  margin-left: 100px;
+}
+.navbar-brand{
+  margin-right: 60%;
+}
+.nav-link{
+  color: #707070c7;
+  font-family: 'Courier New', Courier, monospace;
+}
+.nav-link:hover {
+  font-weight: bold;
+}
+.nav-link:active {
+  font-weight: bold;
+}
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #707070;
+}
+
+/* Style the banner */
+.banner{
+  background-color: #DADED4;
+}
+.banner-img{
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.banner-text{
+  position: absolute;
+  top: 56%;
+  left: 40%;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+/* Style the footer */
+  .card{
+    border: none;
+    height: 200px;
+  }
+  .card-body {
+  padding: 50px;
+  padding-top: 80px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+  .card1{
+    background-color: #494E48;
+    color: #F9FAFB;
+    height: 200px;
+  }
+  .card3{
+    text-align: end;
+  }
+  .social-icons{
+    text-align: center;
+  }
+  .icons{
+    color: #494E48;
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  /* Style the contact form */
+  .contact-section{
+    background-color: #DADED4;
+  }
+  .contact-text {
+    font-size: 2rem;
+    padding-left: 100px;
+    padding-top: 100px;
+  }
+  .contact {
+    width: 40%;
+    padding-left:100px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+.form-label{
+  margin-bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.form-control{
+  height: 80%;
+  margin-bottom: 20px;
+  border-radius: 0;
+  background-color:#f9fafbc2;
+  border-color: #494e48b7;
+}
+
+/****************************
+        Desktop Style
+*****************************/
+@media screen and (min-width: 760px) {
+}

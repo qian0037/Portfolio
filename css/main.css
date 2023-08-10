@@ -5,10 +5,15 @@ html {
   }
   
 /* Consistent site font */
-
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
 .blank{
     background-color: #F9FAFB;
-    height: 10px;
+    height: 20px;
   }
 
 /* Style the navigation */
@@ -42,7 +47,7 @@ html {
   display: block;
   margin: auto;
   padding-top: 150px;
-  padding-bottom: 150px;
+  padding-bottom: 120px;
 }
 .banner-text{
   position: absolute;
@@ -51,10 +56,25 @@ html {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
+
+/* Style the work section */
+.index-work{
+    background-color: #DADED4;
+    padding-bottom: 150px;
+}
+
+.banner-work{
+    width: 60%;
+   display: block;
+   margin: auto;
+    background-color: #DADED4;
+}
+
 /* Style the footer */
-  .card{
+  .card-footer{
     border: none;
     height: 200px;
+    padding: 0;
   }
   .card-body {
   padding: 50px;
@@ -79,12 +99,39 @@ html {
     padding: 10px;
   }
 
+/* Style the about section */
+.about-section{
+    background-color: #DADED4;
+}
+
+.about-section h2{
+    padding-left: 120px;
+}
+.about-header{
+    padding-left: 120px;
+    padding-top: 100px;
+}
+.about-img {
+    height: 200px;
+    border-radius: 90px;
+    display: block;
+    margin: auto;
+}
+#about-card{
+    background-color: #DADED4;
+    border: none;
+    padding-bottom: 80px;
+}
+
+#about-card p{
+    padding-left: 80px;
+    padding-top: 40px;
+}
   /* Style the contact form */
   .contact-section{
     background-color: #DADED4;
   }
   .contact-text {
-    font-size: 2rem;
     padding-left: 100px;
     padding-top: 100px;
   }
@@ -105,6 +152,11 @@ html {
   border-radius: 0;
   background-color:#f9fafbc2;
   border-color: #494e48b7;
+}
+
+.contact-img{
+    background-color: #DADED4;
+    width: 100px;
 }
 
 /****************************

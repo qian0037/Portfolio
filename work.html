@@ -7,13 +7,13 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-
-    <link rel="stylesheet" href="css/main.css">
     <title>FY Designs</title>
     <!-- Custom Styles -->
-    <!-- Load bootstrap links-->
+
+    <!-- Load Bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- Load Bootstrap javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <!-- Load FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Load GoogleFonts -->
@@ -29,27 +29,65 @@
     <div class="blank">
     </div>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light nav-colour" role="navigation">
+    <nav class="navbar navbar-expand-sm navbar-light nav-colour" role="navigation">
+        <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" width="90" alt="Site Logo">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="about.html">About</a>
-                <a class="nav-item nav-link" href="work.html">Work</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="work.html">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
-    </nav>
+      </nav>
     <!-- Add a main section -->
     <main>
+        <section id="work-card">
+        <h1 class="work-header">My work</h1>
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <img src="images/photo0.png" class="card-img-top"  alt="A photo of a waffle making tutorial">
+                <div class="card-body">
+                  <h5 class="card-title">Photography Portfolio</h5>
+                  <p class="card-text">Check out my photography portfolio in just one click.</p>
+                  <br>
+                  <br>
+                  <button type="button" class="btn btn-dark btn-custom"> <a href="https://portfolio.adobe.com/c55c41aa-5afc-487f-93ef-ebb8426fda55/editor/" target="_blank" class="link">Explore</a></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <img src="images/waffle.png" class="card-img-top"  alt="A photo of a waffle making tutorial">
+                <div class="card-body">
+                  <h5 class="card-title">Video Channel</h5>
+                  <p class="card-text">Don't miss out the new videos on my channel.</p>
+                  <br>
+                  <br>
+                  <button type="button" class="btn btn-dark btn-custom"><a href="https://www.youtube.com/channel/UC-UZK5fCLVsq1Ikprv6gJ0w" target="_blank" class="link">Explore</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section id="work-carousel" class="carousel slide" data-bs-ride="carousel">
+            <h1 class="work-header">Gallery</h1>
             <div class="carousel-containter">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#work-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

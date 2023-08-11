@@ -26,14 +26,12 @@ p{
   }
 
 /* Style the navigation */
-.navbar{
-  padding-left: 100px;
-}
 .nav-colour{
     background-color: #F9FAFB;
 }
 .navbar-brand{
-  margin-right: 60%;
+  display: block;
+  margin: auto;
 }
 .navbar-logo {
     width: 10%;
@@ -65,15 +63,15 @@ p{
   padding-bottom: 130px;
 }
 .banner-text{
-  position: absolute;
-  top: 58%;
-  left: 40%;
-  text-align: center;
-  font-family: 'dancing script';
-  font-size: 1.25rem;
-}
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+    font-family: 'dancing script';
+    font-size: 1.25rem;
+  }
 
-/* Style the work section */
+/* Style the index work section */
 .index-work{
     background-color: #DADED4;
     padding-bottom: 150px;
@@ -86,34 +84,29 @@ p{
 
 .index-work button {
     position: absolute;
-    top: 30%;
+    top: 50%;
     opacity: 80%;
 }
-
-
-
 .banner-work{
-    width: 60%;
-   display: block;
-   margin: auto;
+    width: 100%;
+    display: block;
+    margin: auto;
     background-color: #DADED4;
 }
 
 /* Style the footer */
   .card-footer{
     border: none;
-    height: 200px;
+    height: 80px;
     padding: 0;
   }
   .card-body {
-  padding: 50px;
-  padding-top: 80px;
-  font-size: 14px;
+    padding: 20px;
+    font-size: 14px;
 }
   .card1{
     background-color: #494E48;
     color: #F9FAFB;
-    height: 200px;
   }
   .card3{
     text-align: end;
@@ -133,13 +126,13 @@ p{
 }
 
 .about-section h2{
-    padding-left: 80px;
+    text-align: center;
 }
 .about-section p{
     line-height: 1.2rem;
 }
 .about-header{
-    padding-left: 120px;
+    text-align: center;
     padding-top: 100px;
 }
 .about-img {
@@ -155,14 +148,14 @@ p{
 }
 
 #about-card p{
-    padding-left: 80px;
+    padding-left: 40px;
     padding-top: 40px;
 }
 
 /* Style the work section */
 #work-card{
     background-color: #DADED4;
-    padding: 120px;
+    padding: 40px;
 }
 .work-header {
     padding-left: 20px;
@@ -185,7 +178,7 @@ p{
     padding-top: 100px;
   }
   .contact {
-    width: 40%;
+    width: 80%;
     padding-left:120px;
     padding-top: 100px;
     padding-bottom: 120px;
@@ -232,5 +225,58 @@ p{
         Desktop Style
 *****************************/
 @media screen and (min-width: 760px) {
-    
+    /* Style the navigation */
+.navbar{
+  padding-left: 100px;
+}
+.navbar-brand{
+    margin-right: 60%;
+  }
+.banner-text{
+  top: 58%;
+  left: 40%;
+}
+
+/* Style the banner */
+.index-work button {
+    top: 30%;
+}
+.banner-work{
+   width: 60%; 
+}
+/* Style the footer */
+  .card-footer{
+    height: 200px;
+  }
+  .card-body {
+  padding: 50px;
+  padding-top: 80px;
+}
+  .card1{
+    height: 200px;
+  }
+/* Style the about section */
+#about-card{
+    padding-bottom: 60px;
+}
+#about-card p{
+    padding-left: 80px;
+}
+.about-section h2{
+    padding-left: 80px;
+}
+.about-header{
+    padding-top: 100px;
+}
+/* Style the work section */
+#work-card{
+    padding: 120px;
+}
+/* Style the contact section */
+  .contact {
+    width: 40%;
+    padding-left:120px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
 }

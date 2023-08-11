@@ -9,7 +9,7 @@ I initially faced challenges while adjusting the background color of the navigat
 Coding was never my strong suit, and it was easy for me to get frustrated when I encountered all kinds of issues. I believe there's a lot of room for improvement in my coding skills, and I'm determined to enhance them. Building my portfolio website has been a precious experience that taught me the importance of meticulous attention to detail and the value of cross-referencing resources, ultimately enhancing my proficiency in web development. I was truly amazed by how powerful the Bootstrap library is and realized that I have only scratched the surface of understanding its intricacies. I am eagerly looking forward to delving into these online open-source frameworks to broaden my knowledge and skills.
 # Resources
 ## Fonts 
-* [Google fonts](https://fonts.google.com/)
+* [Google Fonts](https://fonts.google.com/)
 ## Icons 
 * [Font Awesome](https://fontawesome.com/)
 ## Frameworks and libraries
